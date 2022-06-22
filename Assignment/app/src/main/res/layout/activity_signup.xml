@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+
+        <import type="android.text.InputType" />
+        <variable
+            name="vm"
+            type="com.assignment.ui.signup.viewmodel.SignupViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".ui.signin.login.LoginActivity">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/ivlogo"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"
+                    android:text="SIGN UP"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="70dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvSignin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="SIGN UP"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/ivlogo" />
+
+                <TextView
+                    android:id="@+id/niceToSee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="PLEASE LOGIN TO CONTINUE"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvSignin"
+
+                    />
+
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/grey_bg"
+                    android:focusableInTouchMode="true"
+                    android:hint="Email ID"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:padding="15dp"
+                    android:text="@={vm.email}"
+                    android:textColor="@color/editTextGrey"
+                    android:textColorHint="@color/editTextGrey"
+                    android:textCursorDrawable="@null"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/niceToSee"
+                    app:layout_goneMarginTop="20dp" />
+
+                <FrameLayout
+                    android:id="@+id/fl_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/edtEmail">
+
+                    <EditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/grey_bg"
+                        android:focusableInTouchMode="true"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:text="@={vm.password}"
+                        android:padding="15dp"
+                        android:textColor="@color/editTextGrey"
+                        android:textColorHint="@color/editTextGrey"
+                        android:textCursorDrawable="@null" />
+
+                    <ImageView
+                        android:id="@+id/passwordEye"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/eyeclose"
+
+                        />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tvforgotPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/forgot_password"
+                    android:visibility="invisible"
+                    android:textColor="@color/grey"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/fl_password" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvforgotPassword">
+
+                    <Button
+                        android:id="@+id/btSignin"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:background="@drawable/gmail_bg"
+                        android:text="SIGN UP"
+                        android:textColor="@color/white"
+                        android:onClick="@{(v) -> vm.signup(v,edtEmail,edtPassword)}"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:text="or"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+
+                    <LinearLayout
+                        android:id="@+id/llSignUp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/already_have_account"
+                            android:textColor="@color/grey" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/sign_in"
+                            android:textColor="@color/primary" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

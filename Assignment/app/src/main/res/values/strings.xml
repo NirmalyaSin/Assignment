@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Assignment</string>
+
+    <string name="welcome">WELCOME</string>
+    <string name="for_love_of_game">FOR THE LOVE OF THE GAME</string>
+    <string name="choose_journey">CHOOSE YOUR JOURNEY AND CONTINUE</string>
+    <string name="signinas">SIGN IN AS A</string>
+    <string name="primeuser">PRIME USER</string>
+    <string name="spectator">SPECTATOR</string>
+    <string name="signin">SIGN IN</string>
+    <string name="nice_to_seeyou">HI THERE! NICE TO SEE YOU AGAIN.</string>
+    <string name="forgot_password"><u>FORGOT PASSWORD</u></string>
+    <string name="reset_password"><u>RESET PASSWORD</u></string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="gmail">GMAIL</string>
+    <string name="dont_have_account_signup">Don\'t have account</string>
+    <string name="already_have_account">Already have an account</string>
+    <string name="signUp">Sign Up</string>
+    <string name="register">REGISTER</string>
+    <string name="personal_details">PERSONAL DETAILS</string>
+    <string name="next">NEXT</string>
+    <string name="submit">SUBMIT</string>
+    <string name="create_credentials">CREATE CREDENTIALS</string>
+    <string name="meet_the_teams">MEET THE TEAMS</string>
+    <string name="no_teams">No Teams Available!</string>
+    <string name="submit_team">SUBMIT TEAM</string>
+    <string name="play_schedule">PLAY SCHEDULE</string>
+    <string name="No_play_schedule">No Play Schedule</string>
+    <string name="No_players_found">No Players Found!</string>
+    <string name="No_notification">No Notification Found!</string>
+    <string name="points_table">POINTS TABLE</string>
+    <string name="Nopoints_table">No Points Table Found!</string>
+    <string name="rules_regulations">RULES &amp; REGULATIONS</string>
+    <string name="norules_regulations">No Rules &amp; Regulations Found!</string>
+    <string name="stage1">STAGE 1</string>
+    <string name="quarter_final">QUARTER FINAL</string>
+    <string name="semi_final">SEMI FINAL</string>
+    <string name="GROUP_A">GROUP A</string>
+    <string name="GROUP_B">GROUP B</string>
+    <string name="game">GAME</string>
+    <string name="teams">TEAMS</string>
+    <string name="date">DATE</string>
+    <string name="time">TIME</string>
+    <string name="win">WIN</string>
+    <string name="loss">LOSS</string>
+    <string name="PCT">PCT</string>
+    <string name="rules_basketball_header">Dr. James Naismith invented the game of basketball in
+Springfield, Massachusetts, in 1891. The objective of
+today\'s game stems directly from Naismith\'s original
+rules that are based around shooting a ball through a
+metal hoop suspended above the ground, which is
+called a basket. These rules include:</string>
+
+    <string name="join_team">JOIN TEAM</string>
+    <string name="view_roster">VIEW ROSTER</string>
+    <string name="stats">STATS</string>
+    <string name="player_listing">PLAYER LISTING</string>
+    <string name="ballers">BALLERS</string>
+    <string name="player_details">Aaron Craft will join Carmen’s Crew for a third straight year in TBT 2021. After four years at Ohio State, Craft spent his first professional season with the Santa Cruz Warriors in the NBA G-League. Following that year, he since has played internationally most recently playing with Dolomiti Energia Trentino in Italy</string>
+    <string name="profile">PROFILE</string>
+    <string name="last_team">Last Team</string>
+    <string name="ind_careeer_hons">INDIVIDUAL CAREER HONORS</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="joint_team">Join Team</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="upgrade">Upgrade To Prime Membership</string>
+    <string name="privacy">Privacy</string>
+    <string name="delete_my_account">Delete my account</string>
+    <string name="submit_a_team">SUBMIT A TEAM</string>
+    <string name="enter_team_details">ENTER TEAM DETAILS</string>
+    <string name="interested_to_join">INTERESTED TO JOIN</string>
+    <string name="enter_details">ENTER DETAILS</string>
+    <string name="full_name">Full name</string>
+    <string name="playing_position">Playing position</string>
+    <string name="enter_location">Enter location</string>
+    <string name="last_name_played">Last team played</string>
+    <string name="enter_statistics_link">Enter statistics link</string>
+    <string name="terms_and_conditions">TERMS &amp; CONDITIONS</string>
+    <string name="delete_account">DELETE MY ACCOUNT</string>
+    <string name="delete_your_account_will">DELETING YOUR ACCOUNT WILL</string>
+    <string name="delete_acc_profile_photo">Delete your account info and profile photo</string>
+    <string name="delete_photo_history">Delete your profile photo and history</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="enter_name">Enter your First Name</string>
+    <string name="enter_username">Enter User Name</string>
+    <string name="enter_lastname">Enter your Last Name</string>
+    <string name="enter_password">Enter your Password</string>
+    <string name="enter_newpassword">Enter New Password</string>
+    <string name="enter_confirmpassword">Enter your Password</string>
+    <string name="enter_shoetbio">Enter your Sort Bio</string>
+    <string name="enter_passwordmatch">Confirm password should match the password</string>
+    <string name="previouspass">Previous password should match</string>
+    <string name="wrong_passwordmatch">Wrong password</string>
+    <string name="enter_valid_email">Enter a valid Email Id</string>
+    <string name="enter_valid_phone">Enter a valid Phone No.</string>
+    <string name="enter_phoneno">Enter your Phone No.</string>
+    <string name="delete">DELETE</string>
+    <string name="retrieve_password">RETRIEVE PASSWORD</string>
+    <string name="enter_registerd_email_sendcode">Enter your registered email address below, we will send you the code on this number</string>
+    <string name="enter_registerd_password_sendcode">Enter your new password below</string>
+    <string name="cont">CONTINUE</string>
+    <string name="verify">VERIFY</string>
+    <string name="confirm">CONFIRM OTP</string>
+    <string name="enter_otp">Enter the OTP we have sent to your registered email address</string>
+    <string name="didnt_receive_code">I didn\'t receive the code</string>
+    <string name="send_again">Send again</string>
+    <string name="notifications">NOTIFICATIONS</string>
+    <string name="roster_notification">ROSTERS NOTIFICATION</string>
+    <string name="leagues_notification">LEAGUES NOTIFICATIONS</string>
+    <string name="stats_notification">STATS NOTIFICATIONS</string>
+    <string name="roster_">ROSTERS</string>
+    <string name="leagues_">LEAGUES</string>
+    <string name="stats_">STATS</string>
+    <string name="sign_in">Sign In</string>
+    <string name="areyousurelogout">Are you sure you want to logout?</string>
+    <string name="areyousuredelete">Do you want to delete your account ?</string>
+
+    <!--sumit teams-->
+    <string name="enterteamname">Enter team name</string>
+    <string name="enterteamdetails">Enter team details</string>
+    <string name="enterlocation">Enter location</string>
+    <!--join teams-->
+    <string name="enter_full_name">Enter Full name</string>
+    <string name="enter_playing_position">Enter Playing position</string>
+    <string name="enter_last_name_played">Enter Last team played</string>
+
+
+    <!--facebook login-->
+    <string name="facebook_app_id">1299665490502760</string>
+    <string name="facebook_client_token">3c3009a90e9c0adfb94c2894313ae6fc</string>
+
+    <!--gmail login-->
+    <string name="your_web_client_id">617853101257-9tcthqn1kt2vo9bj8khqgdluulisqog8.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_internet_not_connected">check your internet connection.</string>
+    <!-- session-->
+    <string name="str_session_expired">Session Expired</string>
+    <string name="str_session_message">Your sesssion has been expired due to login in another device</string>
+    <string name="str_account_suspended">Your account is suspended, please contact your admin.</string>
+    <string name="str_account_deleted">Your account is deleted, please contact your admin.</string>
+    <string name="okay">Ok</string>
+    <string name="this_item_msg">This item has multiple customizations added.  Proceed to cart to modify item?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="alert">Alert!</string>
+
+    <string name="str_inactiveUser">Inactive User</string>
+    <string name="str_inactive_message">Your account is inactive.</string>
+</resources>
